@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "diagnostics": true,
+        "inlineSourceMap": true,
+        "listFiles": true,
+        "noEmitOnError": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "pretty": true,
+        "strictNullChecks": true
+    }
+}
+
