@@ -8,11 +8,17 @@ A template to get started with a Javascript/Typescript project for backend and f
 * [Mithril] - Client-side MVC framework
 * [Express] - Server-side framework
 
-== Install and Run
+## Install dependencies
 
 ```
 cd js-boilerplate
 npm install
+```
+
+## Run
+
+```
+cd js-boilerplate
 npm run-script run
 # Point browser to localhost:3000
 ```
