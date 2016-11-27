@@ -7,6 +7,7 @@ A template to get started with a Javascript/Typescript project for backend and f
 * [npm] - Package manager
 * [Mithril] - Client-side MVC framework
 * [Express] - Server-side framework
+* [PaPaParse] - CSV parser
 
 ## Install dependencies
 
@@ -35,3 +36,4 @@ files are also within ```public```.
 [npm]: https://www.npmjs.com/
 [Mithril]: http://mithril.js.org/
 [Express]: http://expressjs.com/
+[PaPaParse]: http://papaparse.com

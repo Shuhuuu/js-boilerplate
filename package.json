@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "express": "^4.14.0",
-    "mithril": "^0.2.5"
+    "mithril": "^0.2.5",
+    "papaparse": "^4.1.2"
   }
 }
