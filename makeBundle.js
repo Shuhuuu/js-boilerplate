@@ -7,7 +7,7 @@ var jsx = require('rollup-plugin-jsx');
 var typescript = require('rollup-plugin-typescript');
 
 rollup.rollup({
-  entry: "src/frontend/main.ts",
+  entry: "src/frontend.ts",
   plugins: [ 
     includePaths({
       paths: ['src']

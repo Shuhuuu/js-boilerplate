@@ -23,6 +23,13 @@ npm run-script run
 # Point browser to localhost:3000
 ```
 
+## Code
+
+The server-side code is in ```src/backend.js```. The client-side code which
+runs within the browser is ```src/frontend.ts```. It gets compiled to
+Javascript and placed as ```public/bundle.js```.  All static HTML and CSS3
+files are also within ```public```.
+
 [Typescript]: https://www.typescriptlang.org/
 [Rollup]: http://rollupjs.org/
 [npm]: https://www.npmjs.com/
