@@ -10,6 +10,8 @@ A template to get started with a Javascript/Typescript project for backend and f
 
 ## Install dependencies
 
+Requires nodejs >= 6.0.
+
 ```
 cd js-boilerplate
 npm install
