@@ -1,2 +1,14 @@
 /* 
  */
+
+table.mytable {
+    border: 1px solid grey;
+}
+
+table.mytable td {
+    padding: 5px;
+}
+
+table.mytable tr.found > td {
+    border: 2px solid red;
+}
