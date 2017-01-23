@@ -6,6 +6,7 @@ const buble = require("rollup-plugin-buble");
 const jsx = require('rollup-plugin-jsx');
 const typescript = require('rollup-plugin-typescript');
 const uglify = require('rollup-plugin-uglify');
+const tsc = require('typescript');
 
 rollup.rollup({
   entry: "src/frontend.ts",
@@ -20,7 +21,7 @@ rollup.rollup({
       include: 'node_modules/**'
     }),
     jsx( {factory: 'm'} ),
-    typescript({typescript: require('typescript')}),
+    typescript({typescript: tsc}),
     buble(),
     uglify()
   ],

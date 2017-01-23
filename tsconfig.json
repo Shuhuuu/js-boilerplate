@@ -8,7 +8,8 @@
         "noImplicitAny": true,
         "noImplicitReturns": true,
         "pretty": true,
-        "strictNullChecks": true
+        "strictNullChecks": true,
+        "noEmitOnError": true
     }
 }
 
